@@ -2,6 +2,7 @@ import pyautogui
 import time
 
 if __name__ == "__main__":
+    # pip install pyautogui
     max_x, max_y = pyautogui.size()
     last_x, last_y = None, None
     while True:
